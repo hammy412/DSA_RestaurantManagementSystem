@@ -3,6 +3,7 @@ import NavBar from "../../components/navbar";
 import AboutUs from "../../components/about-us";
 import Menu from "../../components/menu";
 import Reviews from "../../components/reviews";
+import Footer from "../../components/footer";
 import './home-styles.css';
 
 export default function Home(){
@@ -12,6 +13,7 @@ export default function Home(){
             <AboutUs />
             <Menu />
             <Reviews />
+            <Footer />
         </div>
     );
 }

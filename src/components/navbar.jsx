@@ -15,7 +15,7 @@ export default function NavBar(){
           <Nav className="ms-auto">
             <Nav.Link href="#about">About Us</Nav.Link>
             <Nav.Link href="#menu">Menu</Nav.Link>
-            <Nav.Link href="#">Contact Us</Nav.Link>
+            <Nav.Link href="#footer">Contact Us</Nav.Link>
             <Nav.Link href="#">Reservations</Nav.Link>
             <Nav.Link href="#">Customer Login</Nav.Link>
             <Nav.Link href="#">Staff Login</Nav.Link>

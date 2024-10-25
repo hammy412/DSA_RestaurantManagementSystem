@@ -27,8 +27,8 @@ const mappedItems = menuItems.map((item) => {
 
 export default function Menu(){
     return (
-    <div id="menu" className="menu-container">
-        <h1 className="menu-header">Restaurant Menu</h1>
+    <div className="menu-container">
+        <h1 id="menu" className="menu-header">Restaurant Menu</h1>
         <div className="menu-items">{mappedItems}</div>
     </div>
     );
